@@ -21,7 +21,7 @@ print 'Width of Image: ', int(input.shape[1]), 'pixels'
 # The second parameter is the image varialbe
 
 
-#cv2.imshow('Hello World', input)
+cv2.imshow('Hello World', input)
 
 # Simply use 'imwrite' specificing the file name and the image to be saved
 cv2.imwrite('./images/Output/output.jpg', input)
