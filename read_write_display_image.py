@@ -5,7 +5,7 @@ Created on Mon May  1 12:57:31 2017
 
 @author: Mohnish_Devadiga
 """
-# We don't need to do this again, but it's a good habit
+
 import cv2 
 import numpy as np
 
