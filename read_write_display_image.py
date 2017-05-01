@@ -29,7 +29,7 @@ cv2.imwrite('./images/Output/output.png', input)
 
 # 'waitKey' allows us to input information when a image window is open
 
-cv2.waitKey()
+cv2.waitKey(3)
 
 # This closes all open windows 
 # Failure to place this will cause your program to hang
