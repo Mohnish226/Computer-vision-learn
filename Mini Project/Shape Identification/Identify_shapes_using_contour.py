@@ -11,7 +11,7 @@ import cv2
 
 # Load and then gray scale image
 
-image = cv2.imread('images/someshapes.jpg')
+image = cv2.imread('someshapes.jpg')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 cv2.imshow('Identifying Shapes',image)
