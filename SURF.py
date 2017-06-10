@@ -15,9 +15,6 @@ gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 #Create SURF Feature Detector object
 surf = cv2.xfeatures2d.SIFT_create()
 
-# Only features, whose hessian is larger than hessianThreshold are retained by the detector
-#surf.hessianThreshold = 500
-
 keypoints, descriptors = surf.detectAndCompute(gray, None)
 print "Number of keypoints Detected: ", len(keypoints)
 
